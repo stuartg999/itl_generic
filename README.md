@@ -237,7 +237,7 @@ Apply power to the target, and observe the VxWorks&reg; boot application on the 
 
 Once the target has booted, the VxWorks&reg; banner becomes visible on the target console.
 
-![](./docs/vxworks_banner_2.PNG)
+![](./vxworks_banner_2.PNG)
 
 ## Additional Documents
 | Document Name                                                |
