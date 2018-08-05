@@ -153,14 +153,15 @@ vip_itl_generic_nehalem_bootapp> prj vip parameter set DEFAULT_BOOT_LINE '"fs(0,
 **NOTE 3:** The default boot line assumes the bootApp will attach to an Intel&reg; Pro 1000 **gei** network device. If your Intel target does not contain this network device, you must set this boot option to another supported network device instead. The alternative boot devices are **fei**, **tei** or **rtl**.<br>
 **Stage 9:** Using the **prj vip component add** command, add the following components to the VIP:
 
-| **INCLUDE_FEI8255X_VXB_END** |
+| **Add Components to the bootApp VIP** |
 | ---------------------------- |
-| **INCLUDE_GEI825XX_VSB_END** |
-| **INCLUDE_RTL8169_VXB_END**  |
-| **DRV_VXBEND_TEI82598**      |
-| **INCLUDE_PC_CONSOLE**       |
-| **DRV_KBD_USB**              |
-| **INCLUDE_SYS_WARM_AHCI**    |
+| INCLUDE_FEI8255X_VXB_END |
+| INCLUDE_GEI825XX_VSB_END |
+| INCLUDE_RTL8169_VXB_END  |
+| DRV_VXBEND_TEI82598      |
+| INCLUDE_PC_CONSOLE       |
+| DRV_KBD_USB           |
+| INCLUDE_SYS_WARM_AHCI    |
 
 Complete bootApp project creation by running the following command:
 ```
@@ -177,14 +178,15 @@ workspace> cd vip_itl_generic_nehalem_kernel_up
 ```
 Using the **prj vip component add** command, add the following components to the VIP:
 
-| **INCLUDE_FAST_REBOOT**      |
+| **Add Components to the VIP**      |
 | ---------------------------- |
-| **INCLUDE_FEI8255X_VXB_END** |
-| **INCLUDE_GEI825XX_VXB_END** |
-| **INCLUDE_RTL8169_VXB_END**  |
-| **DRV_VXBEND_TEI82598**      |
-| **INCLUDE_PC_CONSOLE**       |
-| **DRV_KBD_USB**              |
+| INCLUDE_FAST_REBOOT      |
+| INCLUDE_FEI8255X_VXB_END |
+| INCLUDE_GEI825XX_VXB_END |
+| INCLUDE_RTL8169_VXB_END  |
+| DRV_VXBEND_TEI82598      |
+| INCLUDE_PC_CONSOLE       |
+| DRV_KBD_USB              |
 
 Complete VIP creation by running the following commands:
 ```
