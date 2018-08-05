@@ -8,15 +8,6 @@
 <!--may be licensed only pursuant to the terms of all applicable Wind River-->
 <!--license agreement.-->
 
-## Index
-
-1. [Supported Boards](#Supported-Boards)
-2. [Supported Devices](#Supported-Devices)
-3. [Unsupported Devices](#Unsupported-Devices)
-3. [Prerequisites](#Prerequisites)
-4. [Getting Started](#Getting-Started)
-5. [Additional Documents](#Additional-Documents)
-
 ## Supported Boards
 
 The **itl_generic** board support package (BSP) supports a variety of 32-bit and 64-bit Intel&reg; Architecture processors for VxWorks&reg; 7. It can therefore be used to boot VxWorks&reg; 7 on most Intel&reg;  boards.
