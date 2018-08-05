@@ -10,12 +10,12 @@
 
 ## Index
 
-1. [Supported Boards](#Supported Boards)
-2. [Supported Devices](#Supported Devices)
-3. [Unsupported Devices](#Unsupported Devices)
+1. [Supported Boards](#Supported-Boards)
+2. [Supported Devices](#Supported-Devices)
+3. [Unsupported Devices](#Unsupported-Devices)
 3. [Prerequisites](#Prerequisites)
-4. [Getting Started](#Getting Started)
-5. [Additional Documents](#Additional Documents)
+4. [Getting Started](#Getting-Started)
+5. [Additional Documents](#Additional-Documents)
 
 ## Supported Boards
 
@@ -134,9 +134,9 @@ vsb_NEHALEM_32_up> cd ..
 ```
 ### Creating the VxWorks&reg; Boot Application Project
 
-The VxWorks&reg; boot application is a configuration profile that must be assigned to a new VxWorks&reg; image project. All available configuration profiles are described in [Configuration Profiles](<https://knowledge.windriver.com/en-us/000_Products/000/020/000/020/000/000_Configuration_and_Build_Guide,_Edition_9/050/020> "Configuration Profiles") .
+The VxWorks&reg; boot application is a configuration profile that must be assigned to a new VxWorks&reg; image project. All available configuration profiles are described in [Configuration Profiles](https://knowledge.windriver.com/Content_Lookup?id=043026 "Configuration Profiles").
 
-Follow the stages of [Preparing a Multi-Stage Boot Loader for Intel 64-bit Processors](<https://knowledge.windriver.com/en-us/000_Products/000/020/000/060/010/000_Boot_Loader_User's_Guide,_Edition_13/030/010> /html> "Preparing a Multi-Stage Boot Loader for Intel 64-bit Processors") to create and build the bootApp project.
+Follow the stages of [Preparing a Multi-Stage Boot Loader for Intel 64-bit Processors](https://knowledge.windriver.com/Content_Lookup?id=044519 "Preparing a Multi-Stage Boot Loader for Intel 64-bit Processors") to create and build the bootApp project.
 
 **NOTE 1:** As you follow these stages, Wind River recommends you modify the following stage commands to align with the itl_generic BSP:<br>
 **Stage 1-3** Omit these stages because these tasks have already been completed.<br>
